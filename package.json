@@ -5,7 +5,6 @@
   "main": "dist/index.js",
   "module": "dist/es/index.js",
   "scripts": {
-    "prepare": "npm run build",
     "precommit": "echo 'Running pre-commit hooks...' && npm run test",
     "prebuild": "npm run test",
     "build": "rm -rf dist & npm run build-commonjs & npm run build-es & npm run build-umd & npm run build-umd-min",
